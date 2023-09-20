@@ -35,7 +35,14 @@ module.exports.userSearch = function (req, res) {
 	})
 }
 
-function passcmd() {}
+function passcmd(command) {
+	if (command is ip address)
+	{
+		reject command;
+		terminate
+	}
+	continue
+}
 
 module.exports.ping = function (req, res) {
 	passcmd('ping -c 2 ' + req.body.address, function (err, stdout, stderr) {
